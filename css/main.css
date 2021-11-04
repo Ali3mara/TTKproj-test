@@ -1,25 +1,75 @@
 body{
     margin: 0;
+    background-color: orange;
+    line-height: 30px;
 }
 
 header{
-    background-color: red;
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
+    background-color: rgba(243, 72, 4, 0.904)
 }
 
 h1, h2{
-    font-family: 'Fruktur', cursive;
+    font-family: 'Press Start 2P', cursive;
+}
+
+p, ol, ul, a{
+    font-size: 30px;
+    font-family: 'Odibee Sans', cursive;
 }
 
 header h1{
     color: white;
-    font-size: 30px;
+    font-size: 50px;
 }
 
 header img{
     border-radius: 170px;
     width: 300px;
     border: 20px yellow;
+
+}
+
+main{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+main img{
+    max-width: 100%;
+}
+
+h1{
+    font-size: 30px;
+}
+
+a{
+    color: green;
+}
+
+a:hover{
+    background-color: green;
+    color: blue;
+}
+
+
+footer{
+    background-color: rgba(243, 72, 4, 0.904);
+    text-align: center;
+}
+
+footer a{
+    color: black;
+}
+
+footer a:hover{
+    background-color: rgba(243, 72, 4, 0.904);
+    color: blanchedalmond;
+}
+
+footer p{
+    margin: 0;
 }
